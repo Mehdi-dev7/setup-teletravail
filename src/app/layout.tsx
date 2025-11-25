@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Audiowide, Cal_Sans, Golos_Text } from "next/font/google";
+import { Audiowide, Sora, Golos_Text } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Navbar/navbar";
 
@@ -13,10 +13,10 @@ const golostext =  Golos_Text({
   weight: ["400"],
   variable: "--font-golostext",})
 
-const calsans =  Cal_Sans({
+const sora = Sora({
   subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-calsans",})
+  weight: ["400", "700"],
+  variable: "--font-sora",})
 
 
 export const metadata: Metadata = {
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${audioWide.variable} ${golostext.variable} ${calsans.variable} `}
+        className={`${audioWide.variable} ${golostext.variable} ${sora.variable} `}
       >
         <Navbar />
         {children}

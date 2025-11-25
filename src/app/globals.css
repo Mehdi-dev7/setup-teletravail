@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Cal+Sans&family=Golos+Text:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Sora:wght@400;700&family=Golos+Text:wght@400..900&display=swap');
+
 
 
 @import "tailwindcss";
@@ -14,7 +15,7 @@
   --white:#fff;
   --black:#000;
 
-  --CalSans: 'Cal Sans', sans-serif;
+  --CalSans: 'Sora', sans-serif;
   --GolosText: 'Golos Text', sans-serif;
   --AudioWide: 'Audiowide', sans-serif;
 
