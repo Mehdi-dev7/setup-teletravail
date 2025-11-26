@@ -61,7 +61,7 @@ export default function Navbar() {
 
 	return (
 		<div
-			className={`w-full transition-all bg-white duration-500 fixed top-0 left-0 z-100${
+			className={`w-full transition-all bg-white duration-500 fixed top-0 left-0 z-[999]${
 				isScrolled ? " bg-(--white) shadow-md" : "bg-transparent"
 			}`}
 		>
