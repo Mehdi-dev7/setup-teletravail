@@ -60,12 +60,12 @@ export default function Navbar() {
 	}, []);
 
 	return (
-		<div
+		<nav
 			className={`w-full transition-all bg-white duration-500 fixed top-0 left-0 z-[999]${
 				isScrolled ? " bg-(--white) shadow-md" : "bg-transparent"
 			}`}
 		>
-			<div className="flex items-center justify-between px-[8%] lg:px-[12%] py-5">
+			<div className="navbar-content flex items-center justify-between px-[8%] lg:px-[12%] py-5">
 				<div className="flex items-center gap-5">
 					{/* logo */}
 					<Link
@@ -170,6 +170,6 @@ export default function Navbar() {
             </div>
       </div>
 
-		</div>
+		</nav>
 	);
 }

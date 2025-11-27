@@ -14,6 +14,24 @@ const statsData = [
     title: "Years experience",
     desc: "Improving homes with expert crafrtsmanship  for over a decade.",
 
+  },
+  {
+    value: 190,
+    suffix: "+",
+    title: "Projects Completed",
+    desc: "Over 250 successful projects delivrered with quality and care.",
+  },
+  {
+    value: 260,
+    suffix: "+",
+    title: "Skilled Tradespeople",
+    desc: "Over team of 30 experts ensures top-quality results.",
+  },
+  {
+    value: 328,
+    suffix: "+",
+    title: "Client Satisfaction",
+    desc: "All of our clients are satisfied with our work and service.",
   }
 ]
 
@@ -50,7 +68,7 @@ export default function About() {
           </div>
         </div>
 			</div>
-      <div className="px-[8%] lg:px-[12%] py-20 gird grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="px-[8%] lg:px-[12%] py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {statsData.map((item, index) => (
           <div key={index} className="abouit-card">
             <h2 className="text-5xl tracking-wider CalSans font-bold mb-6">
@@ -62,7 +80,10 @@ export default function About() {
               />
               {item.suffix}
               </h2>
-              <div className="about-content py-6 border-t border-gray-400"></div>
+              <div className="about-content py-6 border-t border-gray-400">
+                <h3 className="mb-3 text-2xl CalSans">{item.title}</h3>
+                <p className="text-gray-400 GolosText">{item.desc}</p>
+              </div>
               </div>
         ))}
       </div>

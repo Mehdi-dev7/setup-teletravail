@@ -41,9 +41,9 @@ body{
 
 /* Navbar */
 
-/* nav, header, .navbar, [class*="navbar"] {
+nav, header, .navbar, [class*="navbar"] {
   z-index: 9999 !important;
-} */
+}
 
 .menu-link a{
   font-weight: 500;
