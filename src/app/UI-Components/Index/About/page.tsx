@@ -72,12 +72,17 @@ export default function About() {
         {statsData.map((item, index) => (
           <div key={index} className="abouit-card">
             <h2 className="text-5xl tracking-wider CalSans font-bold mb-6">
-              <CountUp 
-                start={0} 
-                end={item.value} 
+              <CountUp
+                start={0}
+                end={item.value}
                 duration={2.5}
                 enableScrollSpy
-              />
+                scrollSpyOnce
+              >
+                {({ countUpRef }) => (
+                  <span ref={countUpRef} />
+                )}
+              </CountUp>
               {item.suffix}
               </h2>
               <div className="about-content py-6 border-t border-gray-400">
