@@ -1,5 +1,87 @@
-export default function page() {
-  return (
-    <div>page</div>
-  )
+"use client";
+
+
+
+
+
+const pricingPlansData = [
+  {
+    id: "1",
+    plan: "Basic Plan",
+    desc: "Our Foundation plan offers essential at an affordable price,",
+    price: "$99.0",
+    planInfo: [
+      "individuals & small projects",
+      "Access to design features",
+      "Limited library of decoration items",
+      "Email support",
+      "Monthly updates",
+
+    ]
+  },
+  {
+    id: "2",
+    plan: "Prenium Plan",
+    desc: "Our Prenium plan offers advanced features for growing needs.",
+    price: "$199.0",
+    planInfo: [
+      "Small to medium projects",
+      "Full access to design features",
+      "Extensive library of decoration items",
+      "Priority email & chat support",
+      "Bi-weekly updates",
+
+    ]
+  },
+  
+];
+
+
+
+export default function PricingPlans() {
+	return (
+		<>
+			<div className="px-[8%] lg:px-[12%] py-20 mt-0 md:mt-[17%]">
+				<div className="flex flex-col lg:flex-row gap-10">
+					<div className="w-full lg:w-1/3 title pt-8">
+						<span className="rounded-full title-span border border-gray-400 px-6 GolosText uppercase font-bold py-1">
+							Our pricing plans
+						</span>
+					</div>
+					<div className="w-full lg:w-2/3">
+						<h1 className="CalSans text-5xl md:text-6xl mb-5 w-full lg:w-[60%]">
+							{" "}
+							Design your <span className="text-(--prim)">
+								space, know
+							</span>{" "}
+							services
+						</h1>
+					</div>
+				</div>
+				<div className="flex flex-col lg:flex-row gap-5 h-full mt-10">
+					<div className="w-full lg:w-1/2">
+						<div className="pricing-wrap h-full rounded-2xl p-5 pt-20">
+              <h1 className="CalSans text-4xl md:text-5xl text-white mb-5 w-full">
+							{" "}
+							Your dreams,<span className="text-(--prim)">
+								our mission, let's
+							</span>{" "}
+							make it happen.
+						</h1>
+            </div>
+					</div>
+          <div className="w-full lg:w-1/1">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+              {pricingPlansData.map((plan, index) => (
+                <div key={index} className="pricing-card bg-white shadow p-5 rounded-2xl">
+                  <h2 className="text-3xl GolosText font-semibold mb-5">{plan.plan}</h2>
+                  <p className="text-gray-500 text-[15px] lg:text-[20px]">{plan.desc}</p>
+                  </div>
+              ))}
+            </div>
+          </div>
+				</div>
+			</div>
+		</>
+	);
 }

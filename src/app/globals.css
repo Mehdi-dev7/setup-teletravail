@@ -272,6 +272,64 @@ nav, header, .navbar, [class*="navbar"] {
 }
 
 
+/* Expertise */
+
+
+.expertise-slider{
+  position: absolute;
+  bottom: -20%;
+  left: 50%;
+  transform: translate(-50% , 0%);
+  width: 70%;
+  height: 700px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.expertise-slider img{
+animation: Anim-scale 4s forwards linear;
+border-radius: 20px;
+}
+
+/* Pricing Plans */
+
+.pricing-wrap{
+  background-image: url(../../public/pricing-banner.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.pricing-wrap:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #00000096 10%, #00000000);
+  z-index: -1;
+}
+
+
+
+
+@keyframes Anim-scale {
+  0%{
+    transform: scale(0);
+  }
+  50%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+
 
 @media (max-width: 991px) {
   .hero{
@@ -304,6 +362,14 @@ nav, header, .navbar, [class*="navbar"] {
     transition: var(--transition-slow);
   }
 
+  .expertise-card{
+    margin: 0 !important;
+  }
+  .expertise-slider{
+    height: 550px;
+    bottom: -20%;
+  }
+
 }
 @media (max-width: 575px) {
   .hero{
@@ -314,5 +380,10 @@ nav, header, .navbar, [class*="navbar"] {
   }
   .service:before{
     display: none;
+  }
+  .expertise-slider{
+    position: relative;
+    width: 100%;
+    height: 400px;
   }
 }
