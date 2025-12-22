@@ -76,6 +76,17 @@ export default function PricingPlans() {
                 <div key={index} className="pricing-card bg-white shadow p-5 rounded-2xl">
                   <h2 className="text-3xl GolosText font-semibold mb-5">{plan.plan}</h2>
                   <p className="text-gray-500 text-[15px] lg:text-[20px]">{plan.desc}</p>
+                  <h1 className="text-6xl lg:text-7xl mt-5 text-(--prim) CalSans flex border-b border-gray-300 pb-3">{plan.price}
+                    <span className="text-xl text-gray-600">/ Per Month</span>
+                  </h1>
+                  <div className="flex flex-col gap-2 my-5">
+                    {plan.planInfo.map((info, idx) => (
+                      <p key={idx} className="text-gray-800 font-semibold text-[15px] GolosText">
+                        <i className="bi bi-check-circle-fill text-(--prim)"></i> {info}
+                      </p>
+                    ))}
+                  </div>
+                  <button className="border border-gray-300 GolosText rounded-full px-4 py-2 hover:bg-(--prim) hover:border-transparent hover:text-white cursor-pointer transition-all duration-300">Get Start Now</button>
                   </div>
               ))}
             </div>
