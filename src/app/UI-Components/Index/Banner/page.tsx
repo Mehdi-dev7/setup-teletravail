@@ -1,5 +1,8 @@
-export default function page() {
+export default function Banner() {
   return (
-    <div>page</div>
+    <>
+      <div>Banner</div>
+    
+    </>
   )
 }

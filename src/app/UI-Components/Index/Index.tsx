@@ -6,6 +6,7 @@ import Expertise from './Expertise/page'
 import PricingPlans from './PricingPlans/page'
 import Testimonial from './Testimonial/page'
 import Faqs from './Faq/page'
+import Banner from './Banner/page'
 
 
 export default function Index() {
@@ -19,6 +20,7 @@ export default function Index() {
       <PricingPlans />
       <Testimonial />
       <Faqs />
+      <Banner />
     </>
   )
 }

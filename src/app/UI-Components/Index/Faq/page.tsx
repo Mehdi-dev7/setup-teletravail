@@ -86,6 +86,15 @@ export default function Faqs() {
               ))}
             </div>
           </div>
+          <div className="w-full lg:w-1/3 pt-5">
+            <div className="faq-card flex flex-col md:flex-row lg:flex-col md:items-center items-start gap-6">
+              <Image src={faqBanner} alt="faq banner" className="rounded-2xl mb-5" />
+              <div className="flex flex-col">
+                <h2 className="capitalize text-3xl CalSans mb-5">Still looking for answers or need a fun chat?</h2>
+                <p className="GolosText text-lg text-gray-400">We're here to help! Reach out to us anytime for more information or just to say hello.</p>
+              </div>
+            </div>
+          </div>
         </div>
 			</div>
 		</>
