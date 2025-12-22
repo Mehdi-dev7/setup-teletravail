@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "image": "/blog-1.jpg",
+    "imageDet": "/blog-1.jpg",
+    "tag": "Power Tool",
+    "postby": "Admin",
+    "date": "June 2 , 2025",
+    "title": "Functional Design Trends That Blen Style and Comfort",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "2",
+    "image": "/blog-2.jpg",
+    "imageDet": "/blog-2-det.jpg",
+    "tag": "Electrical & Lighting",
+    "postby": "Admin",
+    "date": "June 3 , 2025",
+    "title": "Tips for Creating a Productive Home Office Space",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "3",
+    "image": "/blog-3.jpg",
+    "imageDet": "/blog-3-det.jpg",
+    "tag": "Accessories",
+    "postby": "Admin",
+    "date": "June 8 , 2025",
+    "title": "Ergonomic Furniture Ideas for a Comfortable Workspace",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "4",
+    "image": "/blog-4.jpg",
+    "imageDet": "/blog-4-det.jpg",
+    "tag": "Power Tool",
+    "postby": "Admin",
+    "date": "June 10 , 2025",
+    "title": "Maximizing Small Spaces: Smart Storage Solutions",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "5",
+    "image": "/blog-5.jpg",
+    "imageDet": "/blog-5-det.jpg",
+    "tag": "Home Appliance",
+    "postby": "Admin",
+    "date": "June 12 , 2025",
+    "title": "Incorporating Biophilic Design in Your Home Office",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "6",
+    "image": "/blog-6.jpg",
+    "imageDet": "/blog-6-det.jpg",
+    "tag": "Accessories",
+    "postby": "Admin",
+    "date": "June 15 , 2025",
+    "title": "Choosing the Right Lighting for Your Home Office",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "7",
+    "image": "/blog-7.jpg",
+    "imageDet": "/blog-7-det.jpg",
+    "tag": "Power Tools",
+    "postby": "Admin",
+    "date": "June 18 , 2025",
+    "title": "Inspiring Color Schemes for a Motivating Workspace",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "8",
+    "image": "/blog-8.jpg",
+    "imageDet": "/blog-8-det.jpg",
+    "tag": "Electrical & Lighting",
+    "postby": "Admin",
+    "date": "June 20 , 2025",
+    "title": "Incorporating Technology for a Smart Home Office",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "9",
+    "image": "/blog-9.jpg",
+    "imageDet": "/blog-9-det.jpg",
+    "tag": "Accessories",
+    "postby": "Admin",
+    "date": "June 22 , 2025",
+    "title": "Creating a Relaxing Break Area in Your Home Office",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "10",
+    "image": "/blog-10.jpg",
+    "imageDet": "/blog-10-det.jpg",
+    "tag": "Power Tool",
+    "postby": "Admin",
+    "date": "June 25 , 2025",
+    "title": "Incorporating Art and Personal Touches in Your Workspace",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "11",
+    "image": "/blog-11.jpg",
+    "imageDet": "/blog-11-det.jpg",
+    "tag": "Electrical & Lighting",
+    "postby": "Admin",
+    "date": "June 28 , 2025",
+    "title": "Sustainable Design Ideas for an Eco-Friendly Home Office",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "12",
+    "image": "/blog-12.jpg",
+    "imageDet": "/blog-12-det.jpg",
+    "tag": "Accessories",
+    "postby": "Admin",
+    "date": "June 30 , 2025",
+    "title": "Creating a Collaborative Workspace at Home",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "13",
+    "image": "/blog-13.jpg",
+    "imageDet": "/blog-13-det.jpg",
+    "tag": "Power Tool",
+    "postby": "Admin",
+    "date": "July 2 , 2025",
+    "title": "Incorporating Natural Light in Your Home Office Design",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": "14",
+    "image": "/blog-14.jpg",
+    "imageDet": "/blog-14-det.jpg",
+    "tag": "Uncategorized",
+    "postby": "Admin",
+    "date": "July 5 , 2025",
+    "title": "Designing a Home Office for Remote Work Success",
+    "desc": "Modern interior design is all creating a sleek, lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  }
+]

@@ -7,6 +7,7 @@ import PricingPlans from './PricingPlans/page'
 import Testimonial from './Testimonial/page'
 import Faqs from './Faq/page'
 import Banner from './Banner/page'
+import Blog from './Blogs/page'
 
 
 export default function Index() {
@@ -21,6 +22,7 @@ export default function Index() {
       <Testimonial />
       <Faqs />
       <Banner />
+      <Blog />
     </>
   )
 }
