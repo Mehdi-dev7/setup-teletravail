@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "/Projects-1.jpg",
+    "tags": ["Residentials"],
+    "title": "Industrial elegance condo",
+    "location": "New York",
+    "date": "14/01/2025"
+  },
+  {
+    "id": 2,
+    "image": "/Projects-2.jpg",
+    "tags": ["Residentials"],
+    "title": "Serene space studio",
+    "location": "Los Angeles",
+    "date": "22/02/2025"
+  },
+  {
+    "id": 3,
+    "image": "/Projects-3.jpg",
+    "tags": ["Residentials"],
+    "title": "Urban zen apartment",
+    "location": "Chicago",
+    "date": "10/03/2025"
+  },
+  {
+    "id": 4,
+    "image": "/Projects-4.jpg",
+    "tags": ["Commercials"],
+    "title": "Modern workspace design",
+    "location": "San Francisco",
+    "date": "05/04/2025"
+  },
+  {
+    "id": 5,
+    "image": "/Projects-5.jpg",
+    "tags": ["Single Home"],
+    "title": "Golden ratio residence",
+    "location": "Seattle",
+    "date": "18/05/2025"
+  },
+  {
+    "id": 6,
+    "image": "/Projects-6.jpg",
+    "tags": ["Residentials"],
+    "title": "Nordic minimalist loft",
+    "location": "Miami",
+    "date": "30/06/2025"
+  },
+  {
+    "id": 7,
+    "image": "/Projects-7.jpg",
+    "tags": ["Residentials"],
+    "title": "Eco-friendly office",
+    "location": "Austin",
+    "date": "12/07/2025"
+  },
+  {
+    "id": 8,
+    "image": "/Projects-8.jpg",
+    "tags": ["Single Home"],
+    "title": "Contemporary villa",
+    "location": "Boston",
+    "date": "25/08/2025"
+  },
+  {
+    "id": 9,
+    "image": "/Projects-9.jpg",
+    "tags": ["Commercials"],
+    "title": "Futuristic retail space",
+    "location": "Denver",
+    "date": "09/09/2025"
+  }
+]

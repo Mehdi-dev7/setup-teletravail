@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Audiowide, Sora, Golos_Text } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/Components/Navbar/navbar";
+import Footer from "@/Components/Footer/Footer";
 
 const audioWide =  Audiowide({
   subsets: ["latin"],
@@ -36,6 +37,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
